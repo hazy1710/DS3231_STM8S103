@@ -5,10 +5,10 @@
 #define F_MASTER_MHZ    16UL
 #define F_MASTER_HZ     16000000UL
 
-// Инициализация шины                                
-void i2c_init();// Инициализация    
-void i2c_start(); // Старт посылка
-void i2c_stop();// Стоп посылка
-void i2c_send_adress(unsigned char address);// Адрес посылка
-void i2c_send_data(unsigned char data);// Данные посылка
-void i2c_get_data(u8 * data, u8 nak);// Данные прием
+// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ С€РёРЅС‹                                
+void i2c_init();// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ    
+void i2c_start(); // РЎС‚Р°СЂС‚ РїРѕСЃС‹Р»РєР°
+void i2c_stop();// РЎС‚РѕРї РїРѕСЃС‹Р»РєР°
+void i2c_send_adress(unsigned char address);// РђРґСЂРµСЃ РїРѕСЃС‹Р»РєР°
+void i2c_send_data(unsigned char data);// Р”Р°РЅРЅС‹Рµ РїРѕСЃС‹Р»РєР°
+void i2c_get_data(u8 * data, u8 nak);// Р”Р°РЅРЅС‹Рµ РїСЂРёРµРј

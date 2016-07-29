@@ -2,7 +2,7 @@
 #include <intrinsics.h>
 #include <stm8s_type.h>
 
-// Инициализация шины                                
-void ds3231_init();// Инициализация    
-void ds3231_read_time(u8 * data);// Чтение времени
-void ds3231_write_time(u8 * data);// Запись времени
+// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ С€РёРЅС‹                                
+void ds3231_init();// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ    
+void ds3231_read_time(u8 * data);// Р§С‚РµРЅРёРµ РІСЂРµРјРµРЅРё
+void ds3231_write_time(u8 * data);// Р—Р°РїРёСЃСЊ РІСЂРµРјРµРЅРё
